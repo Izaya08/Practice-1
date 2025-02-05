@@ -43,9 +43,9 @@ public class StudentDataManager : MonoBehaviour
         {
             int age = PlayerPrefs.GetInt(studentName + "Age");
             int studentNumber = PlayerPrefs.GetInt(studentName + "Student Number");
-            string Section = PlayerPrefs.GetString(studentName + "Student Number");
+            string Section = PlayerPrefs.GetString(studentName + "Student Section");
 
-            resultText.text = $"Name: {studentName}\nAge: {age}\nSN: {studentNumber}\nSection: {Section}m";
+            resultText.text = $"Name: {studentName}\nAge: {age}\nSN: {studentNumber}\nSection: {Section}";
         }
         else
         {
