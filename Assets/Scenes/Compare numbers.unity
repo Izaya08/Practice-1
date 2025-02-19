@@ -518,7 +518,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 3.7634964, y: -2.5382996}
+  m_AnchoredPosition: {x: -4, y: -1}
   m_SizeDelta: {x: -17.7753, y: -5.0765}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &219508816
@@ -755,7 +755,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 268.11, y: -48}
+  m_AnchoredPosition: {x: 268.11, y: -47}
   m_SizeDelta: {x: 261.3646, y: 97.0009}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &515024691
@@ -771,7 +771,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_Color: {r: 1, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -780,18 +780,20 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
-    m_FontStyle: 0
+    m_FontSize: 15
+    m_FontStyle: 1
     m_BestFit: 0
-    m_MinSize: 10
-    m_MaxSize: 40
+    m_MinSize: 0
+    m_MaxSize: 50
     m_Alignment: 1
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: New Text
+  m_Text: 'Output
+
+'
 --- !u!222 &515024692
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1680,7 +1682,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Search Input
+  m_Text: 'Search Student
+
+'
 --- !u!222 &949204291
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2209,7 +2213,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Enter Student Number
+  m_Text: Enter Student ID
 --- !u!222 &1730639922
 CanvasRenderer:
   m_ObjectHideFlags: 0
